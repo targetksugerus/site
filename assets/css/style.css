@@ -58,6 +58,16 @@ button:hover {
   opacity: 0.7;
 }
 
+.hidden-break {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hidden-break {
+    display: block;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
