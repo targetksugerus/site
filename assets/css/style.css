@@ -706,7 +706,7 @@ section {
   }
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio .portfolio-wrap::after {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -748,7 +748,7 @@ section {
   border-left: 1px solid #ff58d0;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.portfolio .portfolio-wrap:hover::after {
   top: 0;
   left: 0;
   right: 0;
