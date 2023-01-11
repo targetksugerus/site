@@ -241,6 +241,16 @@
     }
   });
 
+  new Swiper('.gallery-slider', {
+    speed: 1400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 1,
+  });
+
   /**
    * Animation on scroll
    */
