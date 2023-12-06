@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://targetksugerus.github.io/site/sitemap.xml
